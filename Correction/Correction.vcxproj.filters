@@ -1,0 +1,168 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Fichiers sources">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Fichiers d%27en-tête">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Fichiers de ressources">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Entity">
+      <UniqueIdentifier>{597e2fa0-5245-4051-ad7f-0e2be7bbe995}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item">
+      <UniqueIdentifier>{ed954c0d-a758-42ea-87cc-b57ab09b824b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Inventory">
+      <UniqueIdentifier>{eb1998d7-b031-4a2b-ae34-033f2e7a3751}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item\Potion">
+      <UniqueIdentifier>{e69e678f-f9be-402e-90e3-1c46ca5743d5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item\Potion\Health">
+      <UniqueIdentifier>{361c3201-f353-4b39-a2ad-04264699bd53}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Item\Weapons">
+      <UniqueIdentifier>{8e970b1b-50c7-4e70-9efd-e7d9170843a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{f67a128a-f782-4ba3-9abd-4b8598a3847f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils">
+      <UniqueIdentifier>{ab434e84-fc29-4509-98af-d0d2617de148}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Maps">
+      <UniqueIdentifier>{4d012755-5477-4198-8ce6-cb466e045c3e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Vector">
+      <UniqueIdentifier>{ce072959-2017-4447-bacb-719b621598a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="File">
+      <UniqueIdentifier>{148ef2e1-b80c-474f-b8a6-73d77fb4e87d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="environment">
+      <UniqueIdentifier>{0eb03d73-d6ca-4532-88c4-1e4141e022cf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Path">
+      <UniqueIdentifier>{869d1985-9b96-4764-915f-f5a98b2f2ee8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Utils\String">
+      <UniqueIdentifier>{e3357064-637e-465b-ac00-cca63508e985}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Correction.cpp">
+      <Filter>Fichiers sources</Filter>
+    </ClCompile>
+    <ClCompile Include="Entity.cpp">
+      <Filter>Entity</Filter>
+    </ClCompile>
+    <ClCompile Include="Item.cpp">
+      <Filter>Item</Filter>
+    </ClCompile>
+    <ClCompile Include="Inventory.cpp">
+      <Filter>Inventory</Filter>
+    </ClCompile>
+    <ClCompile Include="Health.cpp">
+      <Filter>Item\Potion\Health</Filter>
+    </ClCompile>
+    <ClCompile Include="Potions.cpp">
+      <Filter>Item\Potion</Filter>
+    </ClCompile>
+    <ClCompile Include="Weapons.cpp">
+      <Filter>Item\Weapons</Filter>
+    </ClCompile>
+    <ClCompile Include="Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Utils.cpp">
+      <Filter>Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MapDatabse.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Case.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="Vector2.cpp">
+      <Filter>Vector</Filter>
+    </ClCompile>
+    <ClCompile Include="Environment.cpp">
+      <Filter>environment</Filter>
+    </ClCompile>
+    <ClCompile Include="File.cpp">
+      <Filter>File</Filter>
+    </ClCompile>
+    <ClCompile Include="Path.cpp">
+      <Filter>Path</Filter>
+    </ClCompile>
+    <ClCompile Include="StringUtils.cpp">
+      <Filter>Utils\String</Filter>
+    </ClCompile>
+    <ClCompile Include="Map.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+    <ClCompile Include="MapSelector.cpp">
+      <Filter>Maps</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Entity.h">
+      <Filter>Entity</Filter>
+    </ClInclude>
+    <ClInclude Include="Item.h">
+      <Filter>Item</Filter>
+    </ClInclude>
+    <ClInclude Include="Inventory.h">
+      <Filter>Inventory</Filter>
+    </ClInclude>
+    <ClInclude Include="Health.h">
+      <Filter>Item\Potion\Health</Filter>
+    </ClInclude>
+    <ClInclude Include="Potions.h">
+      <Filter>Item\Potion</Filter>
+    </ClInclude>
+    <ClInclude Include="Weapons.h">
+      <Filter>Item\Weapons</Filter>
+    </ClInclude>
+    <ClInclude Include="Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Utils.h">
+      <Filter>Utils</Filter>
+    </ClInclude>
+    <ClInclude Include="MapDatabse.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Case.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Vector</Filter>
+    </ClInclude>
+    <ClInclude Include="Environment.h">
+      <Filter>environment</Filter>
+    </ClInclude>
+    <ClInclude Include="File.h">
+      <Filter>File</Filter>
+    </ClInclude>
+    <ClInclude Include="Path.h">
+      <Filter>Path</Filter>
+    </ClInclude>
+    <ClInclude Include="StringUtils.h">
+      <Filter>Utils\String</Filter>
+    </ClInclude>
+    <ClInclude Include="Map.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+    <ClInclude Include="MapSelector.h">
+      <Filter>Maps</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
